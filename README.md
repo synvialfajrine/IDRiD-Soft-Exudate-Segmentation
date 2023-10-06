@@ -1,4 +1,5 @@
 # IDRiD Soft Exudates Segmentation
+
 ## Dataset
 Dataset used in this assigment is taken from IDRiD, that can be retrieved from this [link](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid). The dataset consist of three dataset types:
 A. Segmentation, B. Disease Grading, C. Localization. In this repository, we use A. Segmentation dataset which consist of original color fundus images (81 images divided into train and test set - JPG Files) and groundtruth images for the Lesions (Microaneurysms, Haemorrhages, Hard Exudates and Soft Exudates divided into train and test set - TIF Files) and Optic Disc (divided into train and test set - TIF Files)
