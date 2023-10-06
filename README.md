@@ -7,20 +7,16 @@ A. Segmentation, B. Disease Grading, C. Localization. In this repository, we use
 ## Method
 In this repository, U-Net is chosen to be the architecture for soft exudate segmentation.
 
-## Performance Average
+## Performance
+Accuracy: 0.97351
 
+F1: 0.41985
+
+Jaccard: 0.33390
+
+Recall: 0.39325
+
+Precision: 0.84668
 
 ## Conclusion
-The approach applied to segment retinal vessel has high accuracy and specificity but still needs
-improvement to get better result. The segmented images have noises and the vessel pixels can
-not be detected thoroughly. There are some vessel pixels that loses in the segmentation
-process.
-
-## References
-1. Q. Li, B. Feng, L. Xie, P. Liang, H. Zhang and T. Wang, "A Cross-Modality Learning Approach
-for Vessel Segmentation in Retinal Images," in IEEE Transactions on Medical Imaging, vol. 35,
-no. 1, pp. 109-118, Jan. 2016, doi: 10.1109/TMI.2015.2457891.
-2. Özkaya, Umut & Öztürk, Şaban & Akdemir, Bayram & Seyfi, Levent, "An Efficient Retinal
-Blood Vessel Segmentation using Morphological Operations", 2018, pp. 1-7,
-10.1109/ISMSIT.2018.8567239.
-3. Digital Retinal Images for Vessel Extraction (DRIVE). Available at (https://drive.grand-challenge.org/DRIVE/)[[https://drive.grandchallenge.org/DRIVE/](https://drive.grand-challenge.org/DRIVE/)https://drive.grand-challenge.org/DRIVE/]
+The resulted segmentation model achieves high accuracy in identifying objects, but it struggles with capturing all relevant instances, indicating a low recall rate. The precision is high, signifying accurate positive predictions, but the model has difficulty in accurately pinpointing the exact location of objects resulting in more false positives.
