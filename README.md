@@ -20,3 +20,6 @@ Precision: 0.84668
 
 ## Conclusion
 The resulted segmentation model achieves high accuracy in identifying objects, but it struggles with capturing all relevant instances, indicating a low recall rate. The precision is high, signifying accurate positive predictions, but the model has difficulty in accurately pinpointing the exact location of objects resulting in more false positives.
+
+## Reference
+nikhilroxtomar. 2021. UNET.py. [https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/8e1e51f97ca3db7e8e41be6ee9c0a46dd56474c0/TensorFlow/unet.py](https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/8e1e51f97ca3db7e8e41be6ee9c0a46dd56474c0/TensorFlow/unet.py)
